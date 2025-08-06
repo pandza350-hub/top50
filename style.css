@@ -1,0 +1,76 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(143, 142, 142);
+    margin: 0;
+}
+
+.row {
+  display: inline-block;
+}
+
+.card {
+  opacity: 0;
+height: 90px;
+width: 375px;
+padding: 4px;
+margin: 4px;
+text-align: center;
+background: white;
+transition: 1s;
+}
+
+.cimage {
+    height: 80px;
+    width: 80px;
+    float: left;
+    margin-top: px;
+    border: 4px solid #0018ff;
+}
+.rankdis {
+   float: right;
+    border-radius: 8px;
+    color: white;
+    padding: 5px;
+    background: rgb(0, 223, 0);
+    font-size: 16px;
+    font-family: 'Roboto';
+    transition: background 2s;
+}
+
+.cnb {
+    font-size: 29px;
+    font-family: 'Roboto';
+    margin-top: 20px;
+    float: right;
+}
+
+.cname {
+    margin-top: 7px;
+    font-family: 'Roboto';
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 20px;
+}
+
+.subscriberCount {
+    transition: color 2s;
+    font-size: 40px;
+    font-family: "headfont";
+}
+
+.fa-arrow-down ,.fa-arrow-up {
+    display: none;
+}
+
+.counters {
+    display: none;
+}
+
+
+  
+  
